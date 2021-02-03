@@ -1,0 +1,29 @@
+
+package extraThings;
+
+import java.util.Scanner;
+
+public class Scannertut {
+
+	public static void main(String[] args) {
+		
+		Scanner scan = new Scanner(System.in);
+		
+		
+		System.out.println("What is your first name?");
+		String name = scan.next();
+		
+		System.out.println("What's your age?");
+		int age = scan.nextInt();
+		
+		System.out.println("What Is your best pet in adoptMe?");
+		String adoptMe = scan.next();
+		adoptMe += scan.nextLine();
+		
+		System.out.println("Thank you, " + name + " you are " + age + " years old ");
+		System.out.println("And your best pet is " + adoptMe);
+		
+		
+	}
+
+}
