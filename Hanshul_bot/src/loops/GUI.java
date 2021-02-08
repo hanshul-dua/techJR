@@ -62,7 +62,7 @@ public class GUI implements ActionListener {
 		String user = userText.getText();
 		String password = passwordText.getText();
 
-		if (user.equalsIgnoreCase("Hanshul") && password.equals("12345678@")) {
+		if (user.equalsIgnoreCase("lovepreet") && password.equals("kuar")) {
 
 			success.setText("Login successful!");
 
